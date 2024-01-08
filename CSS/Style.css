@@ -119,7 +119,9 @@ body {
 }
 
 .card-img-top {
-    height: 60vh;
+     width:50%;
+    background-size: cover;
+    height: 50%;
 }
 
 #scroll {
