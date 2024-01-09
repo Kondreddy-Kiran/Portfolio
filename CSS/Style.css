@@ -74,6 +74,9 @@ body {
 .card-title {
     color: orangered;
 }
+.card-title-1 {
+    color: black;
+}
 
 .code {
     display: flex;
@@ -94,7 +97,6 @@ body {
     cursor: pointer;
     width: 50px;
     height: 50px;
-    box-shadow: 0 2px 2px #999;
     padding: 0px;
     text-decoration: none;
     text-align: center;
@@ -106,7 +108,7 @@ body {
     border-radius: 25px;
     -moz-border-radius: 25px;
     -webkit-border-radius: 25px;
-    margin: 10px;
+     margin: 10px;
 }
 
 .bIcon:hover {
@@ -118,10 +120,19 @@ body {
     border-radius: 10px;
 }
 
-.card-img {
-     width:50%;
-     background-size: cover;
-     height: 50%;
+.card-img-top {
+    max-height: 912px;
+    background-size: cover;
+    border-bottom: 1px solid grey;
+}
+
+.skill-card-img {
+    max-height: 300px;
+    background-size: cover;
+    border-bottom: 0px;
+}
+.linkedin {
+    color: #0077B5;
 }
 
 #scroll {
